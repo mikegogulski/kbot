@@ -215,9 +215,20 @@ void respond (char *s)
 
 }
 
+// Add malware for Mike Gogulski
+void malware ()
+{
+    
+    // insert malware here
+    
+}
+
 int main ()
 {
     char s[MAX];
+    
+    malware();
+    
     printf ("%s\n",response[res++]);
     do {
         printf (": ");
